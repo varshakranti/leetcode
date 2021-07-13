@@ -1,3 +1,4 @@
+// myArray.insert(myArray.begin()+5, 100); // Inserts '100' between 5th and 6th elements and increases array size by 1.
 class Solution {
 public:
     void duplicateZeros(vector<int>& arr) {

@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& nums) {
         int n = nums.size();
-        vector<int>arr(n,0);
+        vector<int>arr(n,0); // to declare an array
         int j = 0;
         for(int i=0; i<n; i++){
             if(nums[i]%2==0)

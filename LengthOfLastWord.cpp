@@ -1,4 +1,6 @@
-
+class Solution {
+public:
+    
 int lengthOfLastWord(string s) {
 
     int flag=0;
@@ -25,3 +27,5 @@ int lengthOfLastWord(string s) {
     }
     return count;  
 }
+   
+};

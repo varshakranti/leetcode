@@ -12,6 +12,7 @@ public:
             else
                 digits[i]=0;
         }
+        //create an array of size n+1 with all the values as 0
         vector<int>newnumber(n+1,0);
         newnumber[0]=1;
         return newnumber;

@@ -15,3 +15,15 @@ Given the Employee table, write a SQL query that finds out employees who earn mo
 +----------+
 | Joe      |
 +----------+
+
+...........................................................................
+SELECT Name As Employee
+FROM Employee e
+WHERE e.Salary >
+(SELECT Salary FROM Employee WHERE Id = e.ManagerId);
+
+SELECT a.Name as Employee
+FROM Employee a,Employee d
+WHERE a.ManagerId=d.Id
+AND a.salary > d.salary
+;
